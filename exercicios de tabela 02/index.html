@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+          }
+        tbody > tr:nth-child(2n){
+            background-color: rgb(104, 104, 104);
+            color: white;
+        }  
+        table{
+            position: relative;
+            width: 500px;
+            border-collapse: collapse;
+        }
+        caption{
+            font-size:1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: rgb(210, 214, 219);
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        thead > tr > th{
+            position: sticky; 
+            top: -1px;
+            background-color:rgb(83, 81, 79);
+        }
+        thead, tfoot{
+            background-color: rgb(83, 81, 79);
+            color: white;
+        }
+        .nun{
+            text-align: end;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <caption>atual</caption>
+        <thead>
+            <tr>
+                <th scope="col">ESTADOS</th>
+                <th scope="col" style="width:50px;">POPULAÇAO / EM MIL</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="nun">45 000</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="nun ">100 000</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="nun">20 000</td>
+            </tr>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="nun">45 000</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="nun ">100 000</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="nun">20 000</td>
+            </tr>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="nun">45 000</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="nun ">100 000</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="nun">20 000</td>
+            </tr>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="nun">45 000</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="nun ">100 000</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="nun">20 000</td>
+            </tr>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="nun">45 000</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="nun ">100 000</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="nun">20 000</td>
+            </tr>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="nun">45 000</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="nun ">100 000</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="nun">20 000</td>
+            </tr>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="nun">45 000</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="nun ">100 000</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="nun">20 000</td>
+            </tr>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="nun">45 000</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="nun ">100 000</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="nun">20 000</td>
+            </tr>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="nun">45 000</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="nun ">100 000</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="nun">20 000</td>
+            </tr>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="nun">45 000</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="nun ">100 000</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="nun">20 000</td>
+            </tr>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="nun">45 000</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="nun ">100 000</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="nun">20 000</td>
+            </tr>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="nun">45 000</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="nun ">100 000</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="nun">20 000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">total de abitantes</th>
+                <td class="nun">0000</td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, autem blanditiis? At cumque quibusdam dolore maiores officia distinctio maxime explicabo voluptatum odit aliquid! Debitis eos amet recusandae cum tempora incidunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quasi laudantium atque vitae sint ullam possimus, quos numquam officia, repellat rem ab natus doloremque quas, expedita fuga recusandae ipsam esse. Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur suscipit, eligendi voluptatibus modi quod voluptatum in, aperiam quos obcaecati quibusdam nesciunt! Maxime, saepe ipsa vitae blanditiis obcaecati officia sint hic?</p>    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, autem blanditiis? At cumque quibusdam dolore maiores officia distinctio maxime explicabo voluptatum odit aliquid! Debitis eos amet recusandae cum tempora incidunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quasi laudantium atque vitae sint ullam possimus, quos numquam officia, repellat rem ab natus doloremque quas, expedita fuga recusandae ipsam esse. Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur suscipit, eligendi voluptatibus modi quod voluptatum in, aperiam quos obcaecati quibusdam nesciunt! Maxime, saepe ipsa vitae blanditiis obcaecati officia sint hic?</p>    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, autem blanditiis? At cumque quibusdam dolore maiores officia distinctio maxime explicabo voluptatum odit aliquid! Debitis eos amet recusandae cum tempora incidunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quasi laudantium atque vitae sint ullam possimus, quos numquam officia, repellat rem ab natus doloremque quas, expedita fuga recusandae ipsam esse. Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur suscipit, eligendi voluptatibus modi quod voluptatum in, aperiam quos obcaecati quibusdam nesciunt! Maxime, saepe ipsa vitae blanditiis obcaecati officia sint hic?</p>    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, autem blanditiis? At cumque quibusdam dolore maiores officia distinctio maxime explicabo voluptatum odit aliquid! Debitis eos amet recusandae cum tempora incidunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quasi laudantium atque vitae sint ullam possimus, quos numquam officia, repellat rem ab natus doloremque quas, expedita fuga recusandae ipsam esse. Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur suscipit, eligendi voluptatibus modi quod voluptatum in, aperiam quos obcaecati quibusdam nesciunt! Maxime, saepe ipsa vitae blanditiis obcaecati officia sint hic?</p>  
+</body>
+</html>
